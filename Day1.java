@@ -17,11 +17,11 @@
 //Invert Binary Tree
 class Solution {
     public TreeNode invertTree(TreeNode root) {
-        //edge case
-        if(root == null)
+        // edge case
+        if (root == null)
             return null;
         TreeNode tempNode = invertTree(root.left);
-        root.left     = invertTree(root.right);
+        root.left = invertTree(root.right);
         root.right = tempNode;
         return root;
     }
