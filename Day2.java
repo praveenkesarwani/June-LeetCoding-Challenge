@@ -6,6 +6,7 @@
  *     ListNode(int x) { val = x; }
  * }
  */
+
 //Delete Node in a Linked List
 /*
 Approach:
