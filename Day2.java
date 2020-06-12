@@ -8,6 +8,7 @@
  */
 
 //Delete Node in a Linked List
+
 /*
 Approach:
 We can not delete the given node as we have not the access of the previous node.
