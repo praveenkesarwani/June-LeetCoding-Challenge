@@ -4,6 +4,7 @@ Approach:
 sort the array in increasing order of differences between cost of going to city A and city B.
 Then first half of the people can be sent to city A and second half to city B.
 */
+
 class Solution {
     class SortByDiff implements Comparator<int[]> {
         
