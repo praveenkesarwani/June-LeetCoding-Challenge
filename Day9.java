@@ -10,5 +10,5 @@ class Solution {
         }
         return i == s.length();
     }
-}
+} 
 //Time Complexity : O(N) , N is the length of string t
