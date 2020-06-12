@@ -9,4 +9,4 @@ class Solution {
         }
         return list.toArray(people); // convert list to array
     }
-}
+} 
